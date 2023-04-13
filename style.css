@@ -6,7 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    position: fixed;
+    
     top: 0;
     left: 0;
     right: 0;
@@ -154,4 +154,16 @@ footer{
     align-items: center;
     margin-bottom: 1rem;
     margin-right: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .middle a{
+        display: none !important;
+    }
+    .right a{
+        display: none;
+    }
+    footer {
+        display: none;
+    }
 }
