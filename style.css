@@ -166,4 +166,10 @@ footer{
     footer {
         display: none;
     }
+    .btn1{
+        margin-left: 2rem;
+    }
+    .btn2{
+        margin-left: 2rem;
+    }
 }
